@@ -1,0 +1,79 @@
+@use "../../sass/variables" as *;
+
+.modal__container {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    .delete__modal {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        width: 47.375rem;
+        height: 27.25rem;
+        border-radius: 0.625rem;
+        background: $white-color;
+
+        h1 {
+            color: #000;
+            font-family: 'Raleway', sans-serif;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            margin: 70px 0px 57px 0px;
+        }
+
+        p {
+            color: #000;
+            font-family: 'Raleway', sans-serif;
+            font-size: 25px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            margin-bottom: 30px;
+        }
+    }
+
+    .delete__modal__div__btn {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 10px;
+
+        button {
+            width: 150px;
+            height: 55px;
+            font-family: 'Raleway', sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.modal__btn__cancel {
+    background-color: $base-blueColor;
+    color: $white-color;
+
+}
+
+.modal__btn__add {
+    border: 1px solid #000;
+    background: $white-color;
+}
+
+button:hover{
+    box-shadow: 5px 5px 5px 5px rgba(171, 171, 171, 06);
+} 
