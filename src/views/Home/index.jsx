@@ -46,7 +46,7 @@ const Home = ({ data }) =>{
   return (
     <div className="container">
      <Header/>
-     <h3>Otimize seu tempo e se organize com o nosso Planejador Diário.</h3>
+     <h3>O que vamos fazer hoje?</h3>
      <TaskList
       data={tasks}
       addTask={addTask}
