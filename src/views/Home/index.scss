@@ -1,21 +1,22 @@
 @use "../../sass/variables" as *;
+@use "../../sass/mixins" as *;
 
 .container {
+    @include flex-center;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     flex-direction: column;
     position: relative;
     z-index: 1;
+    background-image: linear-gradient( #fff,#96C98C, $fire-green);
 
     h3 {
-        color: $white-color;
+        color: $fire-gray;
         font-family: 'Poppins', sans-serif;
-        font-size: 40px;
+        font-size: 32px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
-        margin-top: 9.25rem;
+        margin-top: 50px;
+
     }
 }

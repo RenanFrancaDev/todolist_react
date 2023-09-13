@@ -1,20 +1,22 @@
 @use "../../sass/variables" as *;
 
 .line {
+    color: $fire-gray;
     width: 100%;
     height: 1.875rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 15px 0px;
-    
+    border-bottom: 1px solid $fire-gray;
+
 
     td {
         height: 35px;
         flex-shrink: 0;
-        color: $white-color;
+        color: $fire-gray !important;
         font-family: 'Raleway', sans-serif;
-        font-size: 25px;
+        font-size: px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;  
@@ -24,6 +26,7 @@
 
         img{
             cursor: pointer;
+            margin-bottom: 10px;
         }
     }
 

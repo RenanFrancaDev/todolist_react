@@ -7,25 +7,23 @@
         align-items: center;
         justify-content: space-between;
         width: 45.5rem;
-        height: 3.125rem;
-        margin: 7.8125rem 1rem 2.5rem 1rem;
+        margin: 50px 0 auto;
 
         th {
-            color: $white-color;
+            color: $fire-gray;
             font-family: 'Raleway', sans-serif;
-            font-size: 1.875rem;
+            font-size: 24px;
             font-style: normal;
             font-weight: 600;
             line-height: normal;
         }
-
     }
 
+
     hr {
-        color: $lightGrey-color;
-        background-color: $lightGrey-color;
+        background-color: #fff;
         width: 100%;
-        height: 6px;
+        height: 2px;
     }
 
     tbody {
@@ -50,7 +48,7 @@
                 height: 35px;
                 flex-shrink: 0;
                 margin-left: 15px;
-                color: #FFF;
+                color: $fire-gray;
                 font-family: 'Raleway', sans-serif;
                 font-size: 25px;
                 font-style: normal;
@@ -85,7 +83,7 @@
                 font-style: normal;
                 font-weight: 400;
                 line-height: normal; 
-                color: $white-color;
+                color: $fire-gray;
                 background-color: transparent;
                 border: none;
                 margin-right: 18px;

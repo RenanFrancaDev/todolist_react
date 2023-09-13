@@ -45,7 +45,6 @@ const Home = ({ data }) =>{
   
   return (
     <div className="container">
-      console.log(data);
      <Header/>
      <h3>Otimize seu tempo e se organize com o nosso Planejador Diário.</h3>
      <TaskList
